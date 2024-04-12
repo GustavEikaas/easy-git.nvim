@@ -30,3 +30,11 @@ Feel free to test it out and make suggestions.
 }
 ```
 
+## Features
+
+- [x] Branch picker
+- [x] Discard changes in current buffer
+- [x] Discard all changes in a branch
+- [x] Discard all changes and return to main branch
+- [ ] Stash changes
+
