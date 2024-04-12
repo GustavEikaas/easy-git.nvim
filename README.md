@@ -23,7 +23,7 @@ Feel free to test it out and make suggestions.
 
     -- Example commands that can be created
     vim.api.nvim_create_user_command('B', git.pick_branch, {})
-    vim.api.nvim_create_user_command('GGRF', git.restore_file, {})
+    vim.api.nvim_create_user_command('GGRF', git.restore_current_file, {})
     vim.api.nvim_create_user_command("GGRM", git.reset_to_main, {})
     vim.api.nvim_create_user_command("GGR", git.reset_branch, {})
   end
